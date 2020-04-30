@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>test</title>
+    <style type="text/css">
+      body { -ms-touch-action: none; }
+    </style>
+    <script type="text/javascript" src="L_JAB2546T.5/files/test.js"></script>
+    <script type="text/javascript">
+      var test;
+
+      function inittest() {
+        var nameOfDiv = "test";
+        var folderName = "L_JAB2546T.5";
+        var viewPortWidth = 1500;
+        var viewPortHeight = 1500;
+        var backgroundColor = "#000000";
+        var uCount = 16;
+        var vCount = 16;
+        var uWrap = true;
+        var vWrap = false;
+        var uMouseSensitivity = -0.0444444;
+        var vMouseSensitivity = 0.0444444;
+        var uStartIndex = 8;
+        var vStartIndex = 4;
+        var minZoom = 1;
+        var maxZoom = 2;
+        var rotationDamping = 0.96;
+        var downScaleToBrowser = true;
+        var addDownScaleGUIButton = false;
+        var downloadOnInteraction = false;
+        var imageExtension = "jpg";
+        var showLoading = true;
+        var loadingIcon = "vector-video-camera-icon (1).png"; // Set to empty string for default icon.
+        var allowFullscreen = true; // Double-click in desktop browsers for fullscreen.
+        var uReverse = false;
+        var vReverse = false;
+        var hotspots = {};
+        var isIBooksWidget = true;
+        
+        keyshotXR = new test(nameOfDiv,folderName,viewPortWidth,viewPortHeight,backgroundColor,uCount,vCount,uWrap,vWrap,uMouseSensitivity,vMouseSensitivity,uStartIndex,vStartIndex,minZoom,maxZoom,rotationDamping,downScaleToBrowser,addDownScaleGUIButton,downloadOnInteraction,imageExtension,showLoading,loadingIcon,allowFullscreen,uReverse,vReverse,hotspots,isIBooksWidget);
+      }
+
+      window.onload = inittest;
+    </script>
+  </head>
+  <body oncontextmenu="return false;">
+    <div id="test"></div>
+  </body>
+</html>
